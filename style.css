@@ -3,6 +3,7 @@ body {
     background-size: cover;
   }
 
+
   a{
     font-family: rift, sans-serif;
     font-weight: 700;
@@ -38,7 +39,7 @@ body {
     font-style: normal;
     font-size: 15px;  
   }
-  
+
   #gallery{
     margin:10px;
 }

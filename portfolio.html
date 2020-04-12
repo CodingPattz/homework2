@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.typekit.net/cye0vxz.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="icon" href="img/favicon.png" sizes="16x16" type="image/png">
@@ -12,44 +14,40 @@
 </head>
 <body>
   <!-- Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #05A7BF;">
-        <div class="d-flex flex-grow-1">
-            <a class="navbar-brand d-none d-lg-inline-block" href="index.html"> Patricia Salazar </a>
-            <div class="w-100 text-right">
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-            </div>
-        </div>
-        <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
-            <ul class="navbar-nav ml-auto flex-nowrap">
-              <li class="nav-item">
-                <a class="nav-item nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-item nav-link active" href="portafolio.html">Portafolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-item nav-link" href="contact.html">Contact Me</a>
-              </li>
-            </ul>
-        </div>
-    </nav>
-    
-    <div class="container mt-3">
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #05A7BF;">
+    <a class="navbar-brand" href="index.html">Patricia Salazar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav navbar-nav ml-auto flex-nowrap">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact Me</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+    <!-- Content-->
+  <div class="container mt-3">
 
-      <div class="card border-0 shadow my-5">
-        <div class="card-body p-5">
+    <div class="card border-0 shadow my-5">
+      <div class="card-body p-5">
           
-          <!-- 1 Row 1 Column-->
-          <div class="text-center">
+        <!-- 1 Row 1 Column-->
+        <div class="text-center">
             <div class="col-lg-">
               <h1>Portfolio</h1>
             </div>
-          </div>
+        </div>
             <br>
           <!-- 1 Row 3 Column-->
-          <div class="row text-center">        
+        <div class="row text-center">        
             <div class="col-lg-4 col-md-4 col-xs-4">        
               <img id="gallery" src="img/logos.png" class="img-fluid" alt="Logos" width="250px" height="150px">        
             </div>
@@ -59,7 +57,8 @@
             <div class="col-lg-4 col-md-4 col-xs-4">        
               <img id="gallery" src="img/stationary.png" class="img-fluid" alt="Stationary" width="250px" height="150px">        
             </div>
-          </div>
+        </div>
+          <!-- 1 Row 3 Column-->
           <br>
           <div class="row text-center">        
             <div class="col-lg-4 col-md-4 col-xs-4">        
@@ -71,18 +70,17 @@
             <div class="col-lg-4 col-md-4 col-xs-4">        
               <img id="gallery" src="img/flyers.png" class="img-fluid" alt="Flyers" width="250px" height="150px">        
             </div>
-          </div>
-              
         </div>
+              
       </div>
-    
     </div>
-
+    
+  </div>
     <!-- Footer-->
-    <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
-      <div class="container-lg text-center">
-        <small>Copyright &copy; Patricia Salazar</small>
-      </div>
-    </footer>
+  <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+    <div class="container-lg text-center">
+      <small>Copyright &copy; Patricia Salazar</small>
+    </div>
+  </footer>
 </body>
 </html>
