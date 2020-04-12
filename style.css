@@ -1,0 +1,52 @@
+body {
+    background: url('img/wall.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+
+  a{
+    font-family: rift, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: #C7C9CB;
+  }
+
+  #link{
+    font-family: rift, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: #05A7BF;
+  }
+  p {
+    font-family: clone-rounded-latin, sans-serif;
+    font-weight: 300;   
+    font-style: normal;
+  }
+
+  h1{
+    font-family: rift, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 70px;
+    color: #656565;
+  }
+
+  label {
+    font-family: clone-rounded-latin, sans-serif;
+    font-weight: 300;   
+    font-style: normal;
+    font-size: 15px;  
+  }
+  
+  #gallery{
+    margin:10px;
+}
+
+  #sticky-footer {
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    height: 60px;
+    }
+    

@@ -5,29 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="background.css">
-    <link rel="icon" href="favicon.png" sizes="16x16" type="image/png">
+    <link rel="stylesheet" href="https://use.typekit.net/cye0vxz.css">
+    <link rel="stylesheet" href="https://use.typekit.net/cye0vxz.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="img/favicon.png" sizes="16x16" type="image/png">
     <title>Patricia Salazar</title>
 </head>
 <body>
 <!-- Navbar-->
   <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #05A7BF;">
         <div class="d-flex flex-grow-1">
-            <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
             <a class="navbar-brand d-none d-lg-inline-block" href="index.html"> Patricia Salazar </a>
             <div class="w-100 text-right">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
             </div>
         </div>
         <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
-            <ul class="navbar-nav ml-auto flex-nowrap">
-              <li class="nav-item active">
+            <ul class="navbar-nav dropdown-menu ml-auto flex-nowrap">
+              <li class="nav-item">
                 <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-item nav-link" href="portafolio.html">Portafolio</a>
+                <a class="nav-item nav-link" href="portfolio.html">Portafolio</a>
               </li>
               <li class="nav-item">
                 <a class="nav-item nav-link" href="contact.html">Contact Me</a>
@@ -36,30 +37,39 @@
         </div>
   </nav>
 
-<div class="container">
-<!-- 1 Row 1 Column-->
-  <div class="row justify-content-md-center">
-    <div class="col-lg-">
-    <h1>About Me</h1>
-    </div>
-  </div>
+<div class="container mt-3">
 
-<!-- 1 Row 2 Column-->
-  <div class="row">
-    <div class="col-lg-4">        
-          <img src="mepic.png" class="rounded" alt="Patricia Salazar" width="300px" height="300px">        
-    </div>
-    <div class="col-lg-8">
-    <p>Miami based Graphic Designer originally from Caracas, Venezuela.</p>
+  <div class="card border-0 shadow my-5">
+    <div class="card-body p-5">
+      
+      <!-- 1 Row 1 Column-->
+      <div class="text-center">
+        <div class="col-lg-">
+          <h1>About Me</h1>
+        </div>
+      </div>
+        <br>
+        <br>
+      <!-- 1 Row 2 Column-->
+      <div class="row">
+          <div class="col-lg-4">        
+          <img id="gallery" src="img/mepic.png" class="img-fluid" alt="Patricia Salazar" width="300px" height="300px" >        
+          </div>
+        <div class="col-lg-8">
+        <p>Miami based Graphic Designer originally from Caracas, Venezuela.</p>
 
-    <p>I like the creative process that involves the development of the corporate identity of companies that are about to start on the market, o require a new image to raise
-      the impact they have on society. To me the Corporate Identity is a fundamental part of a company; is the tool that allows the association of an image to the service you can be paying.</p>
+        <p>I like the creative process that involves the development of the corporate identity of companies that are about to start on the market, o require a new image to raise
+        the impact they have on society. To me the Corporate Identity is a fundamental part of a company; is the tool that allows the association of an image to the service you can be paying.</p>
       
-    <p>Also I believe that the editorial design has an enormous potential and have to be exploited, so I tend to do jobs where it is evident the harmony of the layout of text and images,
-      while respecting the client’s criteria.</p>
+        <p>Also I believe that the editorial design has an enormous potential and have to be exploited, so I tend to do jobs where it is evident the harmony of the layout of text and images,
+        while respecting the client’s criteria.</p>
       
-    <p>Internet is a great platform, that’s why I gave listing advisory and I manage company accounts on social networks, with the aim of opening a solid space to any company or individual
-      on the Internet, where the design and good taste are the common denominator.</p>    
+        <p>Internet is a great platform, that’s why I gave listing advisory and I manage company accounts on social networks, with the aim of opening a solid space to any company or individual
+        on the Internet, where the design and good taste are the common denominator.</p> 
+        <a id="link" href="https://www.instagram.com/pattz25" target="_blank">Check My Instagram</a>
+        </div>
+      </div>
+          
     </div>
   </div>
 
